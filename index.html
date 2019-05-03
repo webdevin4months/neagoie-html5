@@ -9,6 +9,10 @@
 </head>
 
 <body>
+    <nav>
+        <a href="newpage.html">New Page</a>
+        <a href="register.html">Register</a>
+    </nav>
     <h1>Section 4. Course Notes</h1>
     <p>there's about 10-15 tags we'll use daily, just know where to look for the rest.</p>
     <p>We use tags so the browser knows what to do with our content.</p>
@@ -35,8 +39,42 @@
     <ul>
         <li>br line break</li>
         <li>hr horizontal line</li>
-        <li>img   image tag </li>
+        <li>img image tag </li>
     </ul>
+    <h3>Anchor Tags</h3>
+    <p>This is a critical feature, the internet was built with linking documents.</p>
+    <a href="http://www.bbc.co.uk" target="_blank">BBC</a>
+    <h3>Forms</h3>
+    <p>Adding the name field to each input.</p>
+    <p>When we submit form the info we entered gets sent to the server in a query string. As we are only practising our
+        string is visible in the address bar. We used method GET by default which dumps the info in the address bar. the
+        POST method wouldn't put the info in the address bar. </p>
+    <p>form action.php used with php sites.</p>
+    <p>?firstname=fake&lastname=man&email=fake%40man.com&password=123&gender=on&cat=on</p>
+    <p>url encoding replaces certain characters with a %.</p>
+    <p>what gets sent is in pairs name and value.</p>
+    <ol>
+        <li>firstname=fake</li>
+        <li>lastname=man</li>
+        <li>email=fake%40man.com
+        <li>password=123</li>
+        <li>gender=on</li>
+        <li>cat=on</li>
+    </ol>
+    <p>2nd time around with some fixes</p>
+    <p>?firstname=Dominic&lastname=Davies&email=dom.davies%40gmail.com&password=password123&gender=male&cat=on&cars=tesla
+    </p>
+    <p>forgot the value tag for pets so just returns on. value="cat" would have included the value cat.</p>
+    <ol>
+        <li>firstname=Dominic</li>
+        <li>lastname=Davies</li>
+        <li>email=dom.davies%40gmail.com</li>
+        <li>password=password123</li>
+        <li>gender=male</li>
+        <li>cat=on</li>
+        <li>cars=tesla</li>
+    </ol>
+
 </body>
 
 </html>
